@@ -1,0 +1,16 @@
+.main {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1190px;
+}
+
+.mini {
+    display: inline-block;
+}
+
+.mini, .pro, .max, .ultra {
+    display: inline-block;
+    padding: 19px;
+}

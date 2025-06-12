@@ -1,0 +1,56 @@
+.main {
+    margin: 0 auto;
+    width: 1190px;
+    color: white
+}
+
+.main img{
+    height: 478px;
+    width: 360px;
+    object-fit: cover;
+}
+
+.img1, .img2, .img3 {
+    display: inline-block;
+    padding: 18px;
+}
+
+.allproj {
+    padding-bottom: 51px;
+    padding-right: 960px;
+    font-size: 18px;
+}
+
+.name, .number, .sign {
+    display: inline-flex; /* Используем flexbox */
+    border-radius: 50px;
+    width: 375px;
+    height: 56px;
+    border: 1px solid white;
+    align-items: center; /* Центрирование по вертикали */
+    justify-content: center; /* Центрирование по горизонтали */
+    margin: auto;
+    color: gray;
+    font-size: 15px;
+}
+
+.empty {
+    display: inline-block;
+    height: 56px;
+    width: 20px;
+}
+
+.sign {
+    background-color: white;
+    color: #3a3a3a
+}
+
+.zapis {
+    padding-right: 550px;
+    font-size: 30px;
+}
+
+.label {
+    font-size: 30px;
+    padding-right: 840px;
+}

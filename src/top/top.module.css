@@ -1,0 +1,119 @@
+.main {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black
+}
+
+.logo {
+    display: inline-block;
+    padding: 10px;
+    padding-right: 200px;
+}
+
+.about {
+    display: inline-block;
+    color: grey;
+}
+
+.buttons {
+    display: inline-block;
+    color: grey;
+    padding: 10px;
+}
+
+.image {
+    width: 170px;
+    height: auto;
+}
+
+.namebrand {
+    display: inline-block;
+    color: white
+
+}
+
+.about div {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.call {
+    font-size: 26px;
+    width: 38px;
+    border-radius: 100px;
+    border: 1px solid gray;
+}
+
+.order  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    height: 38px;
+    width: 150px;
+    border: 1px solid grey;
+    border-radius: 100px;
+}
+
+.order button {
+    background-color: transparent;
+    color: grey;
+    border: none;
+    cursor: pointer;
+}
+
+
+.modal {
+    background-color: #131313;
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%; /* или любая другая ширина */
+    max-width: 600px;
+    position: relative;
+    z-index: 1100;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    border-radius: 50px;
+    
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+input::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.form-group input {
+    border-radius: 50px;
+}
+
+.about a {
+    color: gray;
+}

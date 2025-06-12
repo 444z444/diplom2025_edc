@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  background-color:#131313;
+  /* height: 2000px; */
+  font-weight: 100%;
+  /* display:block; */
+}
+
+.rp {
+  padding-bottom: 40px;
+}
+
+.loca {
+  padding-bottom: 40px;
+}
+
+.comb {
+  padding-bottom: 40px;
+}
+
+.katalog {
+  padding-bottom: 40px;
+}
+
+.portf {
+  padding-bottom: 40px;
+}
+
+.modal-overlay {
+  position: fixed; /* фиксирует оверлей на экране */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* полупрозрачный черный фон */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* центрирует окно по вертикали и горизонтали */
+  z-index: 1000; /* модальное окно будет поверх остальных элементов */
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 50%; /* или любая другая ширина */
+  max-width: 600px; /* максимальная ширина окна */
+  position: relative;
+  z-index: 1100; /* чтобы окно было поверх оверлея */
+}

@@ -1,0 +1,50 @@
+.main {
+    justify-content: center;
+    margin: 0;
+}
+
+
+.label{
+    font-size: 18px;
+    color: white
+}
+
+
+.image11, .image12 {
+    display: inline-block;
+}
+
+.image21, .image22 {
+    display: inline-block;
+}
+
+
+.main img {
+    border-radius: 12px;
+    height: 342px;
+    width: 572px;
+    padding: 5px;
+}
+
+.label {
+    margin: 0 auto;
+    width: 1190px;
+    /* background-color:  green; */
+}
+
+.allprojects {
+    /* background-color: green; */
+    margin: 0 auto;
+    width: 1190px;
+    color: white;
+}
+
+.allprojects div {
+    padding-right: 80%;
+    
+}
+
+.label div {
+    padding-right: 88%;
+
+}

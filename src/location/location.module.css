@@ -1,0 +1,52 @@
+.main {
+    width: 1190;
+    color: white;
+}
+
+.a{
+    padding-top: 39px;
+    width: 1190px;
+}
+
+.map {
+    padding-bottom: 39px;
+}
+
+.label2 {
+    padding-right: 680px;
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+
+.map img {
+    max-width: 1190px;
+    height: auto;
+}
+
+.label {
+    padding-right: 880px;
+    font-size: 30px;
+    padding-bottom: 39px;
+}
+
+/* .label2 {
+    padding-right: 100px;
+} */
+
+.label3 {
+    padding-right: 862px;
+    font-size: 30px;
+    padding-bottom: 39px;
+}
+
+.label4 {
+    padding-right: 785px;
+    font-size: 17px;
+    padding-bottom: 39px;
+}
+
+.label5 {
+    padding-right: 750px;
+    font-size: 17px;
+    padding-bottom: 39px;
+}

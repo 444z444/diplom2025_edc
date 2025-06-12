@@ -1,0 +1,45 @@
+.main {
+    /* margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1190px; */
+
+}
+
+.label {
+    padding-top: 70px;
+    font-size: 30px;
+}
+
+.about div {
+    padding-top: 22px;
+    font-size: 13px
+}
+
+.about {
+    padding-bottom: 253px;
+}
+
+.border div {
+    color: white
+}
+
+.border {
+    /* background-color: blue; */
+    height: 764px;
+    width: 260px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.button {
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 50px;
+    height: 54px;
+    width: 168px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
